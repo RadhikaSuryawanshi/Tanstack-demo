@@ -123,8 +123,8 @@ const App = () => {
          </div>
       </div>
       <div className='w-full lg:h-1/2  flex flex-col lg-flex-row justify-center items-center md:mt-5 lg:mt-15'>
-    <div className='w-[90%] h-full flex lg:flex-row  flex-col justify-center text-center items-center sm-w-full lg:p-10'>
-    <div className='w-3/5 lg:w-1/3 h-full flex flex-col justify-center item-center gap-4'>
+    <div className='w-[90%] h-full flex lg:flex-row  flex-col justify-center text-center items-center sm-w-full lg:p-10 gap-4'>
+    <div className='w-3/5 lg:w-1/3 h-full flex flex-col justify-center item-center gap-2 lg:gap-4'>
 <img src="/profile.png" alt="profile" className='size-64 md:size-80 lg:w-full lg:h-full object-cover object-top   lg:hover:scale-105 transition-all duration-300 glow-image' />
 <p className=' text-base w-full underline underline-offset-3 lg:text-xl flex justify-center lg:flex-none lg:justify-center'><i className='font-light '>Radhika Suryawanshi💗</i></p>
     </div>
@@ -141,13 +141,11 @@ const App = () => {
       <div class="badge badge-primary badge-xs"></div>
       <div class="badge badge-primary badge-sm"></div>
       <div class="badge badge-primary badge-md"></div>
-      <div class="badge badge-primary badge-lg"></div>
-      <div class="badge badge-primary badge-md"></div>
       <div class="badge badge-primary badge-sm"></div>
       <div class="badge badge-primary badge-xs"></div>
     </div>
     </div>
-    <div></div>
+   
     </div>
     
   )
