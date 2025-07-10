@@ -123,20 +123,20 @@ const App = () => {
          </div>
       </div>
       <div className='w-full lg:h-1/2  flex flex-col lg-flex-row justify-center items-center md:mt-5 lg:mt-15'>
-    <div className='w-[90%] h-full flex lg:flex-row  flex-col justify-center text-center items-center lg:p-10'>
-    <div className='w-1/3 h-full flex flex-col justify-center item-center gap-4'>
+    <div className='w-[90%] h-full flex lg:flex-row  flex-col justify-center text-center items-center sm-w-full lg:p-10'>
+    <div className='w-3/5 lg:w-1/3 h-full flex flex-col justify-center item-center gap-4'>
 <img src="/profile.png" alt="profile" className='size-64 md:size-80 lg:w-full lg:h-full object-cover object-top   lg:hover:scale-105 transition-all duration-300 glow-image' />
-<p className=' text-sm  underline underline-offset-2 lg:text-xl inline '><i className='font-light '>Radhika Sanjay Suryawanshi</i></p>
+<p className=' text-base w-full underline underline-offset-3 lg:text-xl flex justify-center lg:flex-none lg:justify-center'><i className='font-light '>Radhika Suryawanshi💗</i></p>
     </div>
       <div className='w-2/3 h-full  flex justify-center items-center mx-5'>
-<p className='w-full font-semibold text-2xl lg:text-5xl leading-10 lg:leading-20 '>Passionate developer dedicated to turning ideas&nbsp;<span class="animate-pulse glow">💡</span>
+<p className='w-full font-semibold text-3xl lg:text-5xl leading-10 lg:leading-20 '>Passionate developer dedicated to turning ideas&nbsp;<span class="animate-pulse glow">💡</span>
 &nbsp;into stunning digital experiences. </p>
     </div>
     
     </div>
     </div>
     <div className='w-full  flex flex-col justify-center items-center mt-5 lg:mt-15 '>
-      <p className='text-xl hover:scale-105 duration-150'>"Let's get started — big things ahead!"</p> 
+      <p className='lg:text-xl text-base hover:scale-105 duration-150'>"Let's get started — big things ahead!"</p> 
       <div className='  flex gap-2 justify-center items-center mt-2 lg:mt-5 '>
       <div class="badge badge-primary badge-xs"></div>
       <div class="badge badge-primary badge-sm"></div>
