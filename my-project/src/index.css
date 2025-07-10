@@ -1,0 +1,57 @@
+
+@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: all;
+    
+}
+:root {
+    --glow-gray: drop-shadow(0 0 20px rgb(187,187,187));
+    --glow-yellow: drop-shadow(0 0 10px rgba(255,255,0,0.8));
+     font-family:"Marhey"
+  }
+ .animate-pulse{
+   
+filter: var(--glow-yellow);
+ }
+ .animate-pulse{
+animation: animate-pulse 2s ease-in-out infinite;
+
+ }
+
+ @keyframes animate-pulse {
+    0% {
+      filter: drop-shadow(0 0 8px rgba(255,255,0,0.8));
+    }
+    50% {
+      filter: drop-shadow(0 0 5px rgba(255,255,0,0.8));
+    }
+    100% {
+      filter: drop-shadow(0 0 7px rgba(255,255,0,0.8));
+    }
+  }
+  
+  .glow-image {
+    @apply filter transition duration-300;
+    filter: var(--glow-gray);
+  }
+  .glow-image {
+    animation: glow-image 5s ease-in-out infinite;
+
+  }
+  @keyframes glow-image {
+    0% {
+      filter: drop-shadow(0 0 5px rgb(187,187,187));
+    }
+    50% {
+      filter: drop-shadow(0 0 10px rgb(187,187,187));
+    }
+    100% {
+      filter: drop-shadow(0 0 5px rgb(187,187,187));
+    }
+  }
+  💡 
+
+*{
+   
+}
