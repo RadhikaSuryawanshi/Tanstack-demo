@@ -2,7 +2,7 @@
 export default function Mainpage() {
   return(
     <div className="w-full h-screen ">
-      <div className="w-full h-full p-3 bg-gray-200 flex flex-col justify-between">
+      <div className="w-full h-full p-3  flex flex-col justify-between">
         <div className="w-full h-[85%]  flex flex-col justify-center items-center">
           <p className="font-bold text-[1rem]">“She builds software the way she builds herself — beautifully.”</p>
    

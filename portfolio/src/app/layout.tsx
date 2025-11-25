@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Tabbar from "./Components/tabbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,22 +31,22 @@ export default function RootLayout({
              @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
         </style>
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}   
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}  
       >
-        {children}
-        <div className="w-full h-full flex justify-center items-center">
-        <footer className="w-[60%] h-[20%] rounded-xl shadow-sm shadow-zink-300 flex justify-center gap-4 items-center mt-[-3%]">
-        <Link href={'/'} className="rounded-full">
-        
-        </Link>
-        <Link href={'/about'}>About</Link>
-        <Link href={'/contact'}>Contact</Link>
-        <Link href={'https://github.com/RadhikaSuryawanshi'}>GitHub</Link>
-        <Link href={'/Themes'}>Themes</Link>
+        <div className="relative ">
+           {/* Page content */}
+        <main className=""> 
+          {children}
+        </main>
 
-        </footer> 
+        {/* Dock fixed at bottom */}
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2">
+          <Tabbar />
         </div>
+        </div>
+
+      {/* {children} */}
+      {/* <Tabbar/>      */}
       </body>
     </html>
   );
