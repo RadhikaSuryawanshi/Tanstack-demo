@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function HomePage(){
   return(
     
-    <div className='w-full h-screen p-1 flex justify-center items-center'>
+    <div className='container w-full h-screen p-1 flex justify-center items-center'>
   
      <main className="w-[80%] h-full flex flex-col justify-center items-center">
       <h1 className=" text-xl lg:md:text-3xl font-boldonse">All Product Details</h1><br></br>

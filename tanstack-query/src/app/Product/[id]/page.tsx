@@ -18,7 +18,7 @@ export default function UserPage() {
   );
      if (isLoading) return <h1>Loading...</h1>
   return (
-    <div className="w-full p-2 flex flex-col  gap-8 ">
+    <div className="container w-full p-2 flex flex-col  gap-8 ">
         <div>
       <h1 className=" text-xl md:lg:text-3xl font-boldonse text-center">Product Details</h1>
       </div>
