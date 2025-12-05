@@ -1,4 +1,5 @@
 "use client";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { useQueries, useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import { useParams } from "next/navigation";
